@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <UserSecretsId>aspnet-azure_web_app_demo-6864DB61-487A-4676-AE60-164FBA18BF17</UserSecretsId>
+    <RootNamespace>azure_web_app_demo</RootNamespace>
   </PropertyGroup>
 
 
