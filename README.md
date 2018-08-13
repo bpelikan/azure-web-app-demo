@@ -7,12 +7,12 @@ This example uses:
 What you need:
 * **Web App** with:
   * `Application settings`:
-    * `"baseBlobUri": "{primary_blob_service_endpoint}"`
+    * `"blobServiceEndpoint": "{primary_blob_service_endpoint}"`
     * `"blobAccountName": "{storage_account_name}"`
     * `"blobKeyValue": "{blob_access_key}"`
     * `"ConnectionStrings:DefaultConnection": "{connection_string_to_sql_database}"`
     * `"cosmosDbKey": "{azure_cosmos_db_access_key }"`
-    * `"cosmosDbUrl": "{azure_cosmos_db_uri}"`
+    * `"cosmosDbUri": "{azure_cosmos_db_uri}"`
 
 * **SQL database**
 * **Storage account** with:
