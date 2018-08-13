@@ -2,3 +2,4 @@ azure-web-app-demo/.vs/
 azure-web-app-demo/azure-web-app-demo/obj/Debug/netcoreapp2.0/azure-web-app-demo.csproj.FileListAbsolute.txt
 azure-web-app-demo/azure-web-app-demo/obj/
 azure-web-app-demo/azure-web-app-demo/bin/
+azure-web-app-demo/azure-web-app-demo/appsettings.Development.json

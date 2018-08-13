@@ -36,6 +36,8 @@ namespace azure_web_app_demo
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
             services.AddSingleton<PdfStorage>();
+            services.AddSingleton<ImageStorage>();
+            services.AddSingleton<ImageAnalysisStore>();
 
             services.AddMvc();
         }
