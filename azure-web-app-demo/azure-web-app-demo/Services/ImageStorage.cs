@@ -21,7 +21,7 @@ namespace azure_web_app_demo.Services
         public ImageStorage(IConfiguration configuration)
         {
             this.configuration = configuration;
-            baseBlobUri = configuration["baseBlobUri"];
+            baseBlobUri = configuration["blobServiceEndpoint"];
             blobAccountName = configuration["blobAccountName"];
             blobKeyValue = configuration["blobKeyValue"];
 

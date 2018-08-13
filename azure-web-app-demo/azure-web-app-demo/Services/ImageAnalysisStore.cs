@@ -18,7 +18,7 @@ namespace azure_web_app_demo.Services
         {
             this.configuration = configuration;
 
-            var uri = new Uri(configuration["cosmosDbUrl"]);
+            var uri = new Uri(configuration["cosmosDbUri"]);
             var key = configuration["cosmosDbKey"];
             client = new DocumentClient(uri, key);
             imageAnalysisLink = UriFactory.CreateDocumentCollectionUri("facedb", "images");
