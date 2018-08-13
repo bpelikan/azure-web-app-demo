@@ -33,6 +33,7 @@ namespace azure_web_app_demo
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseApplicationInsights()
                 .UseStartup<Startup>()
                 .Build();
     }
