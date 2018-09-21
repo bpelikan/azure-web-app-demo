@@ -1,4 +1,6 @@
 # Azure-web-app-demo 
+[![Build Status](https://bpelikan.visualstudio.com/azure-web-app-demo/_apis/build/status/azure-web-app-demo-ASP.NET%20Core-CI)](https://bpelikan.visualstudio.com/azure-web-app-demo/_build/latest?definitionId=3)
+
 This example uses: 
 * **Web App**, 
 * **SQL database** and 
