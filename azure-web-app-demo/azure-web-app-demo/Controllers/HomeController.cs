@@ -13,6 +13,7 @@ namespace azure_web_app_demo.Controllers
         public IActionResult Index()
         {
             return View()
+			;
         }
 
         public IActionResult About()
